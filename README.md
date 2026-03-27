@@ -156,8 +156,4 @@ The model returned text instead of JSON. This happens most often with very small
 **Generation is very slow**
 If your GPU doesn't have enough VRAM to fit the entire model, Ollama splits inference between GPU and CPU, which is significantly slower. Switch to a smaller model or upgrade to one that fits fully on your GPU.
 
----
-
-## License
-
-MIT
+IT
