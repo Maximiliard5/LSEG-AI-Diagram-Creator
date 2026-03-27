@@ -78,25 +78,6 @@ Alternatively, serve it with Python:
 python -m http.server
 # then open http://localhost:8000
 ```
-
----
-
-## Model recommendations
-
-| Model | Size | Speed | JSON quality | Best for |
-|---|---|---|---|---|
-| `gemma3:1b` | ~800MB | ⚡⚡⚡ | ⚠️ inconsistent | Quick testing |
-| `qwen2.5:3b` | ~2GB | ⚡⚡ | ✅ very good | **Recommended** |
-| `deepseek-r1:8b` | ~5GB | 🐢 slow | ✅ excellent | High accuracy |
-| `deepseek-r1:14b` | ~9GB | 🐢🐢 very slow | ✅ excellent | High-end GPUs only |
-
-**`qwen2.5:3b` is the recommended default** — it produces reliable structured JSON output and runs fast enough on mid-range hardware.
-
-To add a new model to the dropdown, find the `<select id="model-select">` block in `index.html` and add a new `<option>`:
-```html
-<option value="qwen2.5:3b">qwen2.5:3b (recommended)</option>
-```
-
 ---
 
 ## Features
