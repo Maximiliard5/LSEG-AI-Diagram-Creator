@@ -2,7 +2,7 @@
 
 A browser-based app that converts plain English descriptions into interactive, editable diagrams — powered by a locally hosted [Ollama](https://ollama.com) model. No server, no build step, no API keys. Everything runs on your machine.
 
-![NL to Diagram screenshot](screenshot.png)
+![NL to Diagram screenshot](diagrama.png)
 
 ---
 
